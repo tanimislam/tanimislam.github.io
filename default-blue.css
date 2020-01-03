@@ -1,44 +1,70 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Alef:400,500,700");
 
+.box {
+  box-model: border-box;
+  border: 3px solid transparent;
+  background-clip:padding-box;
+}
+
+
+.col-sm-5cols {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+@media (min-width: 100px) {
+  .col-sm-5cols {
+    height: 150px;
+    float: left;
+  }
+}
+
 body {
-    background: #BAC0E4;
+  background: #BAC0E4;
 }
 
 body,h1,h2,h3,h4,h5,div,p,blockquote,ol,ul,dl,li,dt,dd,td {
-    color: #eeeeee;
-    font-family: "Alef", Helvetica, sans-serif;
+  color: #eeeeee;
+  font-family: "Alef", Helvetica, sans-serif;
 }
 
 .root {
-    background: #8695CC;
+  background: #8695CC;
 }
 
 .head {
-    background: #5866B1;
+  background: #5866B1;
 }
 
 .menu {
-    background: #49538B;
+  background: #49538B;
 }
 
 .main {
-    background: #545CA0;
+  background: #545CA0;
 }
 
 a:link {
-    color: #EEEEEE;
+  color: #EEEEEE;
 }
 
 a:visited {
-    color: #EEEEEE;
+  color: #EEEEEE;
 }
 
 a:active {
-    color: #EEEEEE;
+  color: #EEEEEE;
 }
 
-a:hover {
-    color: #EEEEEE;
-    background: #9797b7;
+a:hover, a:focus, a:focus {
+  text-decoration: none !important;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+  color: #EEEEEE;
+  background: #9797b7;
+  text-decoration: none;
 }

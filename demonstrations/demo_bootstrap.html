@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1">
+    <title>Temperature Conversion With Bootstrap</title>
+    <link rel="stylesheet" type="text/css"
+	  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Temperature Converter</h1>
+    <div class="form-group col-md-3">
+      <label for="usr">Celsius:</label>
+      <input type="text" class="form-control" id="celsius"
+	     onkeyup="celsiusToFahrenheit()">
+    </div>
+    <div class="form-group col-md-3">
+      <label for="pwd">Fahrenheit:</label>
+      <input type="text" class="form-control" id="fahrenheit"
+	     onkeyup="fahrenheitToCelsius()">
+    </div>
+    <!--
+    <script>
+      $( "celsius" ).keyup(function() {
+	  let celsius = $( "celsius" ).text( );
+	  let fahrenheit = ( celsius * 1.4 ) + 32;
+	  $( "fahrenheit" ).text( fahrenheit.toFixed( 2 ) );
+      });
+
+      $( "fahrenheit" ).keyup(function() {
+	  let fahrenheit = $( "fahrenheit" ).text( );
+	  let celsius = ( fahrenheit - 32 ) * 5.0 / 9.0;
+	  $( "celsius" ).text( celsius.toFixed( 2 ) );
+      });
+    </script>
+    -->
+    <script>
+      function celsiusToFahrenheit( ) {
+	  let celsius = document.getElementById( 'celsius' ).value;
+	  let fahrenheit = ( celsius * 1.4 ) + 32;
+	  document.getElementById( 'fahrenheit' ).value = fahrenheit.toFixed( 2 );
+      }
+      
+      function fahrenheitToCelsius( ) {
+	  let fahrenheit = document.getElementById( 'fahrenheit' ).value;
+	  let celsius = ( fahrenheit - 32 ) * 5.0 / 9.0;
+	  document.getElementById( 'celsius' ).value = celsius.toFixed( 2 );
+      }
+    </script>
+  </body>
+</html>
