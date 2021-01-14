@@ -1,0 +1,270 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>6. Core APIs &mdash; nprstuff 1.0 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="7. Email APIs" href="email_api.html" />
+    <link rel="prev" title="5. Top Level API" href="top_level_api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> nprstuff
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="core_functionality.html">1. Core Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="new_functionality.html">2. New Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="graphics_functionality.html">3. Graphics Functionality</a></li>
+<li class="toctree-l1"><a class="reference internal" href="oldstuff.html">4. Oldstuff</a></li>
+<li class="toctree-l1"><a class="reference internal" href="top_level_api.html">5. Top Level API</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. Core APIs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#npr-utils-module">6.1. npr_utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#autocrop-image-module">6.2. autocrop_image module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#convert-image-module">6.3. convert_image module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#music-to-m4a-module">6.4. music_to_m4a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#freshair-and-freshair-by-year-modules">6.5. freshair and freshair_by_year modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#thisamericanlife-module">6.6. thisamericanlife module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#waitwait-and-waitwait-realmedia-modules">6.7. waitwait and waitwait_realmedia modules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="email_api.html">7. Email APIs</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">nprstuff</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li><span class="section-number">6. </span>Core APIs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/core_api.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="core-apis">
+<h1><span class="section-number">6. </span>Core APIs<a class="headerlink" href="#core-apis" title="Permalink to this headline">¶</a></h1>
+<p>This document describes the nprstuff core API, which provides the low-level back-end for the CLI front ends described in <a class="reference internal" href="core_functionality.html#core-functionality"><span class="std std-ref">Core Functionality</span></a> and <a class="reference internal" href="new_functionality.html#new-functionality"><span class="std std-ref">New Functionality</span></a>. These modules live under <code class="docutils literal notranslate"><span class="pre">nprstuff.core</span></code>.</p>
+<p>The most fundamental change, from the <cite>older NPR API</cite>, is the usage of webscraping (through <a href="#id2"><span class="problematic" id="id3">Selenium_</span></a>) and inference to craft responses that return stories for <a class="reference external" href="https://freshair.npr.org">NPR Fresh Air</a> and <a class="reference external" href="https://waitwait.npr.org">NPR Wait Wait</a> episodes. Here is a screenshot.</p>
+<a class="reference internal image-reference" href="_images/waitwait_screenshot_ANNOTATED.png"><img alt="_images/waitwait_screenshot_ANNOTATED.png" class="align-center" src="_images/waitwait_screenshot_ANNOTATED.png" style="width: 100%;" /></a>
+<p>To get <a class="reference external" href="https://waitwait.npr.org">NPR Wait Wait</a> episodes for 8 AUGUST 2020, one needs to put this URL into address bar of the <a href="#id4"><span class="problematic" id="id5">Selenium_</span></a> headless browser,</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">https://www.npr.org/search?query=*&amp;page=1&amp;refinementList[shows]=Wait Wait...Don&#39;t Tell Me!&amp;range[lastModifiedDate][min]=1596783600&amp;range[lastModifiedDate][max]=1596870000&amp;sortType=byDateAsc</span>
+</pre></div>
+</div>
+<p>This unwieldy process required a fair amount of trial and error to (mostly) work.</p>
+<p>Second, I have redesigned the Python logging functionality in the following way,</p>
+<ul class="simple">
+<li><p>custom format of the logging output, formatted as <code class="docutils literal notranslate"><span class="pre">'%(levelname)s</span> <span class="pre">%(module)s.%(funcName)s</span> <span class="pre">(%(lineno)d):</span> <span class="pre">%(message)s'</span></code>. See the <a class="reference external" href="https://docs.python.org/3/howto/logging-cookbook.html">logging cookbook</a> for more information on what this format means.</p></li>
+<li><p>the <a class="reference internal" href="core_functionality.html#core-functionality"><span class="std std-ref">Core Functionality</span></a> command line tools have an extra argument flag, <code class="docutils literal notranslate"><span class="pre">--level</span></code>, that specifies whether to print out logging output and the following debug levels: <code class="docutils literal notranslate"><span class="pre">DEBUG</span></code>, <code class="docutils literal notranslate"><span class="pre">INFO</span></code>, or <code class="docutils literal notranslate"><span class="pre">ERROR</span></code>.</p></li>
+</ul>
+<div class="section" id="npr-utils-module">
+<h2><span class="section-number">6.1. </span>npr_utils module<a class="headerlink" href="#npr-utils-module" title="Permalink to this headline">¶</a></h2>
+<p>This module contains common utilities to get the proper metadata for NPR programs, to name these media files in the proper date format, and to get the full paths to the <a class="reference external" href="https://libav.org">LibAV</a> or <a class="reference external" href="https://ffmpeg.org">FFMPEG</a> and <a class="reference external" href="https://handbrake.fr">HandBrakeCLI</a> tools used to create the NPR programs in <a class="reference external" href="https://en.wikipedia.org/wiki/MPEG-4_Part_14">M4A</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/MP3">MP3</a> formats (among other functionalities).</p>
+</div>
+<div class="section" id="autocrop-image-module">
+<h2><span class="section-number">6.2. </span>autocrop_image module<a class="headerlink" href="#autocrop-image-module" title="Permalink to this headline">¶</a></h2>
+<p>This module provides low-level functionality that implements automatic cropping of lossy (<a class="reference external" href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/JPEG">JPEG</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/TIFF">TIFF</a>) and <a class="reference external" href="https://en.wikipedia.org/wiki/PDF">PDF</a> images.</p>
+<p>This <a class="reference external" href="https://en.wikipedia.org/wiki/PDF">PDF</a> autocropping functionality is copied over from <a class="reference external" href="https://gist.github.com/jpscaletti/7321281">this repo</a>. That repository is based off <a class="reference external" href="https://github.com/ho-tex/pdfcrop">pdfcrop.pl</a> to calculate the <a class="reference external" href="https://upload.wikimedia.org/wikipedia/commons/2/2a/PDF_BOX_01.svg">BoundingBox</a>. This functionality requires a working <a class="reference external" href="https://www.ghostscript.com">ghostscript</a> (using the <code class="docutils literal notranslate"><span class="pre">gs</span></code> executable) to calculate the bounding box, and the <a class="reference external" href="https://mstamy2.github.io/PyPDF2">PyPDF2</a> module to read and manipulate <a class="reference external" href="https://en.wikipedia.org/wiki/PDF">PDF</a> files.</p>
+<a class="reference internal image-reference" href="https://upload.wikimedia.org/wikipedia/commons/2/2a/PDF_BOX_01.svg"><img alt="https://upload.wikimedia.org/wikipedia/commons/2/2a/PDF_BOX_01.svg" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/PDF_BOX_01.svg" width="100%" /></a>
+<p>Three methods – <code class="xref py py-meth docutils literal notranslate"><span class="pre">get_boundingbox</span></code>, <code class="xref py py-meth docutils literal notranslate"><span class="pre">crop_pdf</span></code>, and  <code class="xref py py-meth docutils literal notranslate"><span class="pre">crop_pdf_singlepage</span></code> – are the higher level hooks to the <a class="reference external" href="https://en.wikipedia.org/wiki/PDF">PDF</a> autocropping functionality.</p>
+</div>
+<div class="section" id="convert-image-module">
+<h2><span class="section-number">6.3. </span>convert_image module<a class="headerlink" href="#convert-image-module" title="Permalink to this headline">¶</a></h2>
+<p>This module provides the low-level functionality to use the <a class="reference external" href="https://cloudconvert.com">CloudConvert</a> API to convert <a class="reference external" href="https://en.wikipedia.org/wiki/PDF">PDF</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a>, and <a class="reference external" href="https://en.wikipedia.org/wiki/Scalable_Vector_Graphics">SVG</a> images into a final <a class="reference external" href="https://en.wikipedia.org/wiki/Portable_Network_Graphics">PNG</a> image, utility functions to create <a class="reference external" href="https://en.wikipedia.org/wiki/MPEG-4_Part_14">MP4</a> movies from a sequence of images, and to create animated <a class="reference external" href="https://en.wikipedia.org/wiki/GIF">GIF</a> files, and created square movies (useful for upload to <a href="#id6"><span class="problematic" id="id7">Instagram_</span></a>).</p>
+<p>This module also requires <a class="reference external" href="https://www.riverbankcomputing.com/static/Docs/PyQt5/api/qtsvg/qsvgrenderer.html" title="(in PyQt v5.14b1)"><code class="xref py py-class docutils literal notranslate"><span class="pre">QSvgRenderer</span></code></a> for some of its functionality. However, <a class="reference external" href="https://pypi.org">PyPI</a> does not have Python bindings to <a class="reference external" href="https://doc.qt.io/qt-5/qtsvg-index.html">QtSVG</a>. To install on an <a class="reference external" href="https://ubuntu.com">Ubuntu</a> machine, you can <em>thoughts and prayers</em> these instructions</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo apt install python3-pyqt5.qtsvg</span>
+</pre></div>
+</div>
+<p>There may be similar installation instructions on other Linux, Windows and Mac OS X machines.</p>
+</div>
+<div class="section" id="music-to-m4a-module">
+<h2><span class="section-number">6.4. </span>music_to_m4a module<a class="headerlink" href="#music-to-m4a-module" title="Permalink to this headline">¶</a></h2>
+<p>This module provides low-level functionality that converts other music formats (<a class="reference external" href="https://en.wikipedia.org/wiki/MP3">MP3</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Vorbis">OGG</a>, and <a class="reference external" href="https://en.wikipedia.org/wiki/FLAC">FLAC</a>) into <a class="reference external" href="https://en.wikipedia.org/wiki/MPEG-4_Part_14">M4A</a>. It also contains functionality to fix <a class="reference external" href="https://en.wikipedia.org/wiki/MPEG-4_Part_14">M4A</a> metadata.</p>
+</div>
+<div class="section" id="freshair-and-freshair-by-year-modules">
+<h2><span class="section-number">6.5. </span>freshair and freshair_by_year modules<a class="headerlink" href="#freshair-and-freshair-by-year-modules" title="Permalink to this headline">¶</a></h2>
+<p>These two modules provide the low level functionality to process and download <a class="reference external" href="https://freshair.npr.org">NPR Fresh Air</a> episodes. Until a few months ago, the <a class="reference external" href="https://api.npr.org">older NPR API</a> existed and worked without issues, but because it was so successful it went away. I now try to fix functionality that is broken, but it is slow undocumented going – hence, diffusion.</p>
+</div>
+<div class="section" id="thisamericanlife-module">
+<h2><span class="section-number">6.6. </span>thisamericanlife module<a class="headerlink" href="#thisamericanlife-module" title="Permalink to this headline">¶</a></h2>
+<p>This module provides the low level functionality to the <a class="reference internal" href="core_functionality.html#this-american-life-label"><span class="std std-ref">This American Life</span></a> CLI and some extra functionality.</p>
+</div>
+<div class="section" id="waitwait-and-waitwait-realmedia-modules">
+<h2><span class="section-number">6.7. </span>waitwait and waitwait_realmedia modules<a class="headerlink" href="#waitwait-and-waitwait-realmedia-modules" title="Permalink to this headline">¶</a></h2>
+<p>These two modules provide the low level functionality to process and download <a class="reference external" href="https://waitwait.npr.org">NPR Wait Wait…Don’t Tell Me</a> episodes.Until a few months ago, the <a class="reference external" href="https://api.npr.org">older NPR API</a> existed and worked without issues, but because it was so successful it went away. I now try to fix functionality that is broken, but it is slow undocumented going – hence, diffusion. This is just like my experience with the <a class="reference internal" href="#freshair-and-freshair-by-year-modules"><span class="std std-ref">freshair and freshair_by_year modules</span></a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The functionality for downloading <a class="reference external" href="https://en.wikipedia.org/wiki/RealMedia">RealMedia</a> <a class="reference external" href="https://waitwait.npr.org">NPR Wait Wait</a> episodes, which lives in <code class="xref py py-mod docutils literal notranslate"><span class="pre">waitwait_realmedia</span></code>, has not been tested in <em>years</em>. This module is used to download Wait Wait episodes before 2006; it may no longer work!</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="email_api.html" class="btn btn-neutral float-right" title="7. Email APIs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="top_level_api.html" class="btn btn-neutral float-left" title="5. Top Level API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Tanim Islam
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
