@@ -5,10 +5,10 @@
   "NAME": "NYC Metro Area",
   "POPULATION": 19216182,
   "FIRST INC.": "01 March 2020",
-  "NUM DAYS": 323,
-  "NUM CASES": 1378188,
-  "NUM DEATHS": 50249,
-  "MAX CASE COUNTY": 536287,
+  "NUM DAYS": 325,
+  "NUM CASES": 1402313,
+  "NUM DEATHS": 50636,
+  "MAX CASE COUNTY": 546195,
   "MAX CASE COUNTY NAME": "New York City, New York"
  },
  {
@@ -17,10 +17,10 @@
   "NAME": "LA Metro Area",
   "POPULATION": 18711436,
   "FIRST INC.": "25 January 2020",
-  "NUM DAYS": 359,
-  "NUM CASES": 1805237,
-  "NUM DEATHS": 20792,
-  "MAX CASE COUNTY": 1024592,
+  "NUM DAYS": 361,
+  "NUM CASES": 1838315,
+  "NUM DEATHS": 21590,
+  "MAX CASE COUNTY": 1038495,
   "MAX CASE COUNTY NAME": "Los Angeles County, California"
  },
  {
@@ -29,10 +29,10 @@
   "NAME": "Chicago Metro Area",
   "POPULATION": 9458539,
   "FIRST INC.": "24 January 2020",
-  "NUM DAYS": 360,
-  "NUM CASES": 782071,
-  "NUM DEATHS": 14287,
-  "MAX CASE COUNTY": 434341,
+  "NUM DAYS": 362,
+  "NUM CASES": 788335,
+  "NUM DEATHS": 14396,
+  "MAX CASE COUNTY": 437465,
   "MAX CASE COUNTY NAME": "Cook County, Illinois"
  },
  {
@@ -41,10 +41,10 @@
   "NAME": "Dallas Metro Area",
   "POPULATION": 7573136,
   "FIRST INC.": "09 March 2020",
-  "NUM DAYS": 315,
-  "NUM CASES": 612022,
-  "NUM DEATHS": 6161,
-  "MAX CASE COUNTY": 234625,
+  "NUM DAYS": 317,
+  "NUM CASES": 627760,
+  "NUM DEATHS": 6326,
+  "MAX CASE COUNTY": 239683,
   "MAX CASE COUNTY NAME": "Dallas County, Texas"
  },
  {
@@ -53,10 +53,10 @@
   "NAME": "Houston Metro Area",
   "POPULATION": 7066141,
   "FIRST INC.": "04 March 2020",
-  "NUM DAYS": 320,
-  "NUM CASES": 428746,
-  "NUM DEATHS": 5261,
-  "MAX CASE COUNTY": 286356,
+  "NUM DAYS": 322,
+  "NUM CASES": 437906,
+  "NUM DEATHS": 5366,
+  "MAX CASE COUNTY": 290249,
   "MAX CASE COUNTY NAME": "Harris County, Texas"
  },
  {
@@ -65,10 +65,10 @@
   "NAME": "Bay Area",
   "POPULATION": 6860207,
   "FIRST INC.": "31 January 2020",
-  "NUM DAYS": 353,
-  "NUM CASES": 298918,
-  "NUM DEATHS": 3082,
-  "MAX CASE COUNTY": 93557,
+  "NUM DAYS": 355,
+  "NUM CASES": 303718,
+  "NUM DEATHS": 3200,
+  "MAX CASE COUNTY": 94905,
   "MAX CASE COUNTY NAME": "Santa Clara County, California"
  },
  {
@@ -77,10 +77,10 @@
   "NAME": "DC Metro Area",
   "POPULATION": 6280487,
   "FIRST INC.": "05 March 2020",
-  "NUM DAYS": 319,
-  "NUM CASES": 331398,
-  "NUM DEATHS": 5438,
-  "MAX CASE COUNTY": 63316,
+  "NUM DAYS": 321,
+  "NUM CASES": 336148,
+  "NUM DEATHS": 5511,
+  "MAX CASE COUNTY": 64053,
   "MAX CASE COUNTY NAME": "Prince George's County, Maryland"
  },
  {
@@ -89,10 +89,10 @@
   "NAME": "Miami Metro Area",
   "POPULATION": 6166488,
   "FIRST INC.": "06 March 2020",
-  "NUM DAYS": 318,
-  "NUM CASES": 603824,
-  "NUM DEATHS": 8637,
-  "MAX CASE COUNTY": 346089,
+  "NUM DAYS": 320,
+  "NUM CASES": 611252,
+  "NUM DEATHS": 8689,
+  "MAX CASE COUNTY": 350251,
   "MAX CASE COUNTY NAME": "Miami-Dade County, Florida"
  },
  {
@@ -101,10 +101,10 @@
   "NAME": "Philadelphia Metro Area",
   "POPULATION": 6102434,
   "FIRST INC.": "06 March 2020",
-  "NUM DAYS": 318,
-  "NUM CASES": 376613,
-  "NUM DEATHS": 9461,
-  "MAX CASE COUNTY": 102837,
+  "NUM DAYS": 320,
+  "NUM CASES": 382932,
+  "NUM DEATHS": 9596,
+  "MAX CASE COUNTY": 105177,
   "MAX CASE COUNTY NAME": "Philadelphia County, Pennsylvania"
  },
  {
@@ -113,10 +113,10 @@
   "NAME": "Atlanta Metro Area",
   "POPULATION": 6020364,
   "FIRST INC.": "02 March 2020",
-  "NUM DAYS": 322,
-  "NUM CASES": 421921,
-  "NUM DEATHS": 5005,
-  "MAX CASE COUNTY": 72857,
+  "NUM DAYS": 324,
+  "NUM CASES": 431196,
+  "NUM DEATHS": 5178,
+  "MAX CASE COUNTY": 74848,
   "MAX CASE COUNTY NAME": "Gwinnett County, Georgia"
  },
  {
@@ -125,10 +125,10 @@
   "NAME": "Phoenix Metro Area",
   "POPULATION": 4948203,
   "FIRST INC.": "26 January 2020",
-  "NUM DAYS": 358,
-  "NUM CASES": 458439,
-  "NUM DEATHS": 6934,
-  "MAX CASE COUNTY": 421551,
+  "NUM DAYS": 360,
+  "NUM CASES": 469253,
+  "NUM DEATHS": 7093,
+  "MAX CASE COUNTY": 431491,
   "MAX CASE COUNTY NAME": "Maricopa County, Arizona"
  },
  {
@@ -137,10 +137,10 @@
   "NAME": "Boston Metro Area",
   "POPULATION": 4873019,
   "FIRST INC.": "01 February 2020",
-  "NUM DAYS": 352,
-  "NUM CASES": 317168,
-  "NUM DEATHS": 9011,
-  "MAX CASE COUNTY": 93414,
+  "NUM DAYS": 354,
+  "NUM CASES": 321725,
+  "NUM DEATHS": 9086,
+  "MAX CASE COUNTY": 94631,
   "MAX CASE COUNTY NAME": "Middlesex County, Massachusetts"
  },
  {
@@ -149,10 +149,10 @@
   "NAME": "Detroit Metro Area",
   "POPULATION": 4319629,
   "FIRST INC.": "10 March 2020",
-  "NUM DAYS": 314,
-  "NUM CASES": 236674,
-  "NUM DEATHS": 7859,
-  "MAX CASE COUNTY": 93003,
+  "NUM DAYS": 316,
+  "NUM CASES": 238605,
+  "NUM DEATHS": 7897,
+  "MAX CASE COUNTY": 93764,
   "MAX CASE COUNTY NAME": "Wayne County, Michigan"
  },
  {
@@ -161,10 +161,10 @@
   "NAME": "Seattle Metro Area",
   "POPULATION": 3979845,
   "FIRST INC.": "21 January 2020",
-  "NUM DAYS": 363,
-  "NUM CASES": 132015,
-  "NUM DEATHS": 2013,
-  "MAX CASE COUNTY": 73017,
+  "NUM DAYS": 365,
+  "NUM CASES": 134306,
+  "NUM DEATHS": 2046,
+  "MAX CASE COUNTY": 74079,
   "MAX CASE COUNTY NAME": "King County, Washington"
  },
  {
@@ -173,10 +173,10 @@
   "NAME": "Minneapolis Metro Area",
   "POPULATION": 3640043,
   "FIRST INC.": "06 March 2020",
-  "NUM DAYS": 318,
-  "NUM CASES": 278243,
-  "NUM DEATHS": 3656,
-  "MAX CASE COUNTY": 92930,
+  "NUM DAYS": 320,
+  "NUM CASES": 279570,
+  "NUM DEATHS": 3676,
+  "MAX CASE COUNTY": 93303,
   "MAX CASE COUNTY NAME": "Hennepin County, Minnesota"
  },
  {
@@ -185,10 +185,10 @@
   "NAME": "San Diego Metro Area",
   "POPULATION": 3338330,
   "FIRST INC.": "10 February 2020",
-  "NUM DAYS": 343,
-  "NUM CASES": 211850,
-  "NUM DEATHS": 2103,
-  "MAX CASE COUNTY": 211850,
+  "NUM DAYS": 345,
+  "NUM CASES": 218618,
+  "NUM DEATHS": 2174,
+  "MAX CASE COUNTY": 218618,
   "MAX CASE COUNTY NAME": "San Diego County, California"
  },
  {
@@ -197,10 +197,10 @@
   "NAME": "Tampa Metro Area",
   "POPULATION": 3194831,
   "FIRST INC.": "01 March 2020",
-  "NUM DAYS": 323,
-  "NUM CASES": 183446,
-  "NUM DEATHS": 3151,
-  "MAX CASE COUNTY": 92891,
+  "NUM DAYS": 325,
+  "NUM CASES": 185747,
+  "NUM DEATHS": 3200,
+  "MAX CASE COUNTY": 94012,
   "MAX CASE COUNTY NAME": "Hillsborough County, Florida"
  },
  {
@@ -209,10 +209,10 @@
   "NAME": "Denver Metro Area",
   "POPULATION": 2967239,
   "FIRST INC.": "05 March 2020",
-  "NUM DAYS": 319,
-  "NUM CASES": 198106,
-  "NUM DEATHS": 2906,
-  "MAX CASE COUNTY": 53460,
+  "NUM DAYS": 321,
+  "NUM CASES": 199477,
+  "NUM DEATHS": 2924,
+  "MAX CASE COUNTY": 53777,
   "MAX CASE COUNTY NAME": "Denver County, Colorado"
  },
  {
@@ -221,10 +221,10 @@
   "NAME": "St. Louis Metro Area",
   "POPULATION": 2803228,
   "FIRST INC.": "07 March 2020",
-  "NUM DAYS": 317,
-  "NUM CASES": 229072,
-  "NUM DEATHS": 3779,
-  "MAX CASE COUNTY": 78781,
+  "NUM DAYS": 319,
+  "NUM CASES": 231613,
+  "NUM DEATHS": 3857,
+  "MAX CASE COUNTY": 79512,
   "MAX CASE COUNTY NAME": "St. Louis County, Missouri"
  },
  {
@@ -233,10 +233,10 @@
   "NAME": "Baltimore Metro Area",
   "POPULATION": 2800053,
   "FIRST INC.": "08 March 2020",
-  "NUM DAYS": 316,
-  "NUM CASES": 142610,
-  "NUM DEATHS": 2856,
-  "MAX CASE COUNTY": 44238,
+  "NUM DAYS": 318,
+  "NUM CASES": 144162,
+  "NUM DEATHS": 2886,
+  "MAX CASE COUNTY": 44670,
   "MAX CASE COUNTY NAME": "Baltimore County, Maryland"
  },
  {
@@ -245,10 +245,10 @@
   "NAME": "Charlotte Metro Area",
   "POPULATION": 2636883,
   "FIRST INC.": "11 March 2020",
-  "NUM DAYS": 313,
-  "NUM CASES": 189100,
-  "NUM DEATHS": 2060,
-  "MAX CASE COUNTY": 77257,
+  "NUM DAYS": 315,
+  "NUM CASES": 193467,
+  "NUM DEATHS": 2107,
+  "MAX CASE COUNTY": 78888,
   "MAX CASE COUNTY NAME": "Mecklenburg County, North Carolina"
  },
  {
@@ -257,10 +257,10 @@
   "NAME": "Orlando Metro Area",
   "POPULATION": 2608147,
   "FIRST INC.": "12 March 2020",
-  "NUM DAYS": 312,
-  "NUM CASES": 165891,
-  "NUM DEATHS": 1893,
-  "MAX CASE COUNTY": 93598,
+  "NUM DAYS": 314,
+  "NUM CASES": 168880,
+  "NUM DEATHS": 1899,
+  "MAX CASE COUNTY": 95405,
   "MAX CASE COUNTY NAME": "Orange County, Florida"
  },
  {
@@ -269,10 +269,10 @@
   "NAME": "San Antonio Metro Area",
   "POPULATION": 2550960,
   "FIRST INC.": "12 February 2020",
-  "NUM DAYS": 341,
-  "NUM CASES": 178819,
-  "NUM DEATHS": 2617,
-  "MAX CASE COUNTY": 149848,
+  "NUM DAYS": 343,
+  "NUM CASES": 182701,
+  "NUM DEATHS": 2683,
+  "MAX CASE COUNTY": 153093,
   "MAX CASE COUNTY NAME": "Bexar County, Texas"
  },
  {
@@ -281,10 +281,10 @@
   "NAME": "Portland Metro Area",
   "POPULATION": 2492412,
   "FIRST INC.": "28 February 2020",
-  "NUM DAYS": 325,
-  "NUM CASES": 79486,
-  "NUM DEATHS": 1005,
-  "MAX CASE COUNTY": 28467,
+  "NUM DAYS": 327,
+  "NUM CASES": 80334,
+  "NUM DEATHS": 1013,
+  "MAX CASE COUNTY": 28678,
   "MAX CASE COUNTY NAME": "Multnomah County, Oregon"
  },
  {
@@ -293,10 +293,10 @@
   "NAME": "Sacramento Metro Area",
   "POPULATION": 2363730,
   "FIRST INC.": "21 February 2020",
-  "NUM DAYS": 332,
-  "NUM CASES": 115525,
-  "NUM DEATHS": 1428,
-  "MAX CASE COUNTY": 80278,
+  "NUM DAYS": 334,
+  "NUM CASES": 117204,
+  "NUM DEATHS": 1494,
+  "MAX CASE COUNTY": 81182,
   "MAX CASE COUNTY NAME": "Sacramento County, California"
  },
  {
@@ -305,10 +305,10 @@
   "NAME": "Pittsburgh Metro Area",
   "POPULATION": 2317600,
   "FIRST INC.": "13 March 2020",
-  "NUM DAYS": 311,
-  "NUM CASES": 134771,
-  "NUM DEATHS": 2895,
-  "MAX CASE COUNTY": 64680,
+  "NUM DAYS": 313,
+  "NUM CASES": 136790,
+  "NUM DEATHS": 2984,
+  "MAX CASE COUNTY": 65577,
   "MAX CASE COUNTY NAME": "Allegheny County, Pennsylvania"
  },
  {
@@ -317,10 +317,10 @@
   "NAME": "Las Vegas Metro Area",
   "POPULATION": 2266715,
   "FIRST INC.": "05 March 2020",
-  "NUM DAYS": 319,
-  "NUM CASES": 201519,
-  "NUM DEATHS": 2866,
-  "MAX CASE COUNTY": 201519,
+  "NUM DAYS": 321,
+  "NUM CASES": 203292,
+  "NUM DEATHS": 2934,
+  "MAX CASE COUNTY": 203292,
   "MAX CASE COUNTY NAME": "Clark County, Nevada"
  },
  {
@@ -329,10 +329,10 @@
   "NAME": "Austin Metro Area",
   "POPULATION": 2227083,
   "FIRST INC.": "13 March 2020",
-  "NUM DAYS": 311,
-  "NUM CASES": 112821,
-  "NUM DEATHS": 1145,
-  "MAX CASE COUNTY": 61468,
+  "NUM DAYS": 313,
+  "NUM CASES": 117257,
+  "NUM DEATHS": 1195,
+  "MAX CASE COUNTY": 63036,
   "MAX CASE COUNTY NAME": "Travis County, Texas"
  },
  {
@@ -341,10 +341,10 @@
   "NAME": "Cincinnati Metro Area",
   "POPULATION": 2221208,
   "FIRST INC.": "14 March 2020",
-  "NUM DAYS": 310,
-  "NUM CASES": 167156,
-  "NUM DEATHS": 1225,
-  "MAX CASE COUNTY": 61629,
+  "NUM DAYS": 312,
+  "NUM CASES": 169312,
+  "NUM DEATHS": 1239,
+  "MAX CASE COUNTY": 62391,
   "MAX CASE COUNTY NAME": "Hamilton County, Ohio"
  },
  {
@@ -353,10 +353,10 @@
   "NAME": "Kansas City Metro Area",
   "POPULATION": 2157990,
   "FIRST INC.": "07 March 2020",
-  "NUM DAYS": 317,
-  "NUM CASES": 122777,
-  "NUM DEATHS": 1440,
-  "MAX CASE COUNTY": 46009,
+  "NUM DAYS": 319,
+  "NUM CASES": 124723,
+  "NUM DEATHS": 1475,
+  "MAX CASE COUNTY": 47051,
   "MAX CASE COUNTY NAME": "Johnson County, Kansas"
  },
  {
@@ -365,10 +365,10 @@
   "NAME": "Columbus Metro Area",
   "POPULATION": 2122271,
   "FIRST INC.": "14 March 2020",
-  "NUM DAYS": 310,
-  "NUM CASES": 157859,
-  "NUM DEATHS": 1146,
-  "MAX CASE COUNTY": 97996,
+  "NUM DAYS": 312,
+  "NUM CASES": 160016,
+  "NUM DEATHS": 1148,
+  "MAX CASE COUNTY": 99253,
   "MAX CASE COUNTY NAME": "Franklin County, Ohio"
  },
  {
@@ -377,10 +377,10 @@
   "NAME": "Indianapolis Metro Area",
   "POPULATION": 2074537,
   "FIRST INC.": "06 March 2020",
-  "NUM DAYS": 318,
-  "NUM CASES": 175581,
-  "NUM DEATHS": 2904,
-  "MAX CASE COUNTY": 82090,
+  "NUM DAYS": 320,
+  "NUM CASES": 177409,
+  "NUM DEATHS": 2948,
+  "MAX CASE COUNTY": 82828,
   "MAX CASE COUNTY NAME": "Marion County, Indiana"
  },
  {
@@ -389,10 +389,10 @@
   "NAME": "Cleveland Metro Area",
   "POPULATION": 2048449,
   "FIRST INC.": "09 March 2020",
-  "NUM DAYS": 315,
-  "NUM CASES": 132389,
-  "NUM DEATHS": 1629,
-  "MAX CASE COUNTY": 82613,
+  "NUM DAYS": 317,
+  "NUM CASES": 134451,
+  "NUM DEATHS": 1638,
+  "MAX CASE COUNTY": 83770,
   "MAX CASE COUNTY NAME": "Cuyahoga County, Ohio"
  },
  {
@@ -401,10 +401,10 @@
   "NAME": "Nashville Metro Area",
   "POPULATION": 1934317,
   "FIRST INC.": "05 March 2020",
-  "NUM DAYS": 319,
-  "NUM CASES": 203940,
-  "NUM DEATHS": 1905,
-  "MAX CASE COUNTY": 80154,
+  "NUM DAYS": 321,
+  "NUM CASES": 205754,
+  "NUM DEATHS": 1929,
+  "MAX CASE COUNTY": 80663,
   "MAX CASE COUNTY NAME": "Davidson County, Tennessee"
  },
  {
@@ -413,10 +413,10 @@
   "NAME": "Virginia Beach Metro Area",
   "POPULATION": 1768901,
   "FIRST INC.": "09 March 2020",
-  "NUM DAYS": 315,
-  "NUM CASES": 85105,
-  "NUM DEATHS": 944,
-  "MAX CASE COUNTY": 22857,
+  "NUM DAYS": 317,
+  "NUM CASES": 87638,
+  "NUM DEATHS": 969,
+  "MAX CASE COUNTY": 23367,
   "MAX CASE COUNTY NAME": "Virginia Beach city, Virginia"
  },
  {
@@ -425,10 +425,10 @@
   "NAME": "Providence Metro Area",
   "POPULATION": 1624578,
   "FIRST INC.": "14 March 2020",
-  "NUM DAYS": 310,
-  "NUM CASES": 136790,
-  "NUM DEATHS": 3158,
-  "MAX CASE COUNTY": 67526,
+  "NUM DAYS": 312,
+  "NUM CASES": 143049,
+  "NUM DEATHS": 3260,
+  "MAX CASE COUNTY": 71172,
   "MAX CASE COUNTY NAME": "Providence County, Rhode Island"
  },
  {
@@ -437,10 +437,10 @@
   "NAME": "Milwaukee Metro Area",
   "POPULATION": 1575179,
   "FIRST INC.": "11 March 2020",
-  "NUM DAYS": 313,
-  "NUM CASES": 163293,
-  "NUM DEATHS": 1727,
-  "MAX CASE COUNTY": 99584,
+  "NUM DAYS": 315,
+  "NUM CASES": 164446,
+  "NUM DEATHS": 1752,
+  "MAX CASE COUNTY": 100290,
   "MAX CASE COUNTY NAME": "Milwaukee County, Wisconsin"
  },
  {
@@ -449,10 +449,10 @@
   "NAME": "Jacksonville Metro Area",
   "POPULATION": 1559514,
   "FIRST INC.": "10 March 2020",
-  "NUM DAYS": 314,
-  "NUM CASES": 115063,
-  "NUM DEATHS": 1291,
-  "MAX CASE COUNTY": 75178,
+  "NUM DAYS": 316,
+  "NUM CASES": 116612,
+  "NUM DEATHS": 1337,
+  "MAX CASE COUNTY": 76171,
   "MAX CASE COUNTY NAME": "Duval County, Florida"
  },
  {
@@ -461,10 +461,10 @@
   "NAME": "Oklahoma City Metro Area",
   "POPULATION": 1408950,
   "FIRST INC.": "13 March 2020",
-  "NUM DAYS": 311,
-  "NUM CASES": 121426,
-  "NUM DEATHS": 880,
-  "MAX CASE COUNTY": 69329,
+  "NUM DAYS": 313,
+  "NUM CASES": 122605,
+  "NUM DEATHS": 898,
+  "MAX CASE COUNTY": 70044,
   "MAX CASE COUNTY NAME": "Oklahoma County, Oklahoma"
  },
  {
@@ -473,10 +473,10 @@
   "NAME": "Raleigh Metro Area",
   "POPULATION": 1390785,
   "FIRST INC.": "03 March 2020",
-  "NUM DAYS": 321,
-  "NUM CASES": 76302,
-  "NUM DEATHS": 574,
-  "MAX CASE COUNTY": 58176,
+  "NUM DAYS": 323,
+  "NUM CASES": 79665,
+  "NUM DEATHS": 579,
+  "MAX CASE COUNTY": 60830,
   "MAX CASE COUNTY NAME": "Wake County, North Carolina"
  },
  {
@@ -485,10 +485,10 @@
   "NAME": "Memphis Metro Area",
   "POPULATION": 1346045,
   "FIRST INC.": "08 March 2020",
-  "NUM DAYS": 316,
-  "NUM CASES": 117500,
-  "NUM DEATHS": 1658,
-  "MAX CASE COUNTY": 78020,
+  "NUM DAYS": 318,
+  "NUM CASES": 118902,
+  "NUM DEATHS": 1687,
+  "MAX CASE COUNTY": 79051,
   "MAX CASE COUNTY NAME": "Shelby County, Tennessee"
  },
  {
@@ -497,10 +497,10 @@
   "NAME": "Richmond Metro Area",
   "POPULATION": 1291900,
   "FIRST INC.": "12 March 2020",
-  "NUM DAYS": 312,
-  "NUM CASES": 62595,
-  "NUM DEATHS": 870,
-  "MAX CASE COUNTY": 16641,
+  "NUM DAYS": 314,
+  "NUM CASES": 64234,
+  "NUM DEATHS": 883,
+  "MAX CASE COUNTY": 17097,
   "MAX CASE COUNTY NAME": "Chesterfield County, Virginia"
  },
  {
@@ -509,10 +509,10 @@
   "NAME": "New Orleans Metro Area",
   "POPULATION": 1270530,
   "FIRST INC.": "09 March 2020",
-  "NUM DAYS": 315,
-  "NUM CASES": 95750,
-  "NUM DEATHS": 2147,
-  "MAX CASE COUNTY": 37813,
+  "NUM DAYS": 317,
+  "NUM CASES": 97018,
+  "NUM DEATHS": 2160,
+  "MAX CASE COUNTY": 38283,
   "MAX CASE COUNTY NAME": "Jefferson Parish, Louisiana"
  },
  {
@@ -521,10 +521,10 @@
   "NAME": "Louisville/Jefferson County Metro Area",
   "POPULATION": 1265108,
   "FIRST INC.": "08 March 2020",
-  "NUM DAYS": 316,
-  "NUM CASES": 100019,
-  "NUM DEATHS": 1185,
-  "MAX CASE COUNTY": 61778,
+  "NUM DAYS": 318,
+  "NUM CASES": 101273,
+  "NUM DEATHS": 1204,
+  "MAX CASE COUNTY": 62534,
   "MAX CASE COUNTY NAME": "Jefferson County, Kentucky"
  },
  {
@@ -533,10 +533,10 @@
   "NAME": "Salt Lake City Metro Area",
   "POPULATION": 1232696,
   "FIRST INC.": "25 February 2020",
-  "NUM DAYS": 328,
-  "NUM CASES": 128418,
-  "NUM DEATHS": 641,
-  "MAX CASE COUNTY": 122887,
+  "NUM DAYS": 330,
+  "NUM CASES": 129518,
+  "NUM DEATHS": 648,
+  "MAX CASE COUNTY": 123926,
   "MAX CASE COUNTY NAME": "Salt Lake County, Utah"
  },
  {
@@ -545,10 +545,10 @@
   "NAME": "Hartford Metro Area",
   "POPULATION": 1204877,
   "FIRST INC.": "14 March 2020",
-  "NUM DAYS": 310,
-  "NUM CASES": 72719,
-  "NUM DEATHS": 2436,
-  "MAX CASE COUNTY": 58134,
+  "NUM DAYS": 312,
+  "NUM CASES": 74010,
+  "NUM DEATHS": 2453,
+  "MAX CASE COUNTY": 59147,
   "MAX CASE COUNTY NAME": "Hartford County, Connecticut"
  },
  {
@@ -557,10 +557,10 @@
   "NAME": "Buffalo Metro Area",
   "POPULATION": 1127983,
   "FIRST INC.": "15 March 2020",
-  "NUM DAYS": 309,
-  "NUM CASES": 63651,
-  "NUM DEATHS": 1612,
-  "MAX CASE COUNTY": 51718,
+  "NUM DAYS": 311,
+  "NUM CASES": 64702,
+  "NUM DEATHS": 1638,
+  "MAX CASE COUNTY": 52473,
   "MAX CASE COUNTY NAME": "Erie County, New York"
  },
  {
@@ -569,10 +569,10 @@
   "NAME": "Birmingham Metro Area",
   "POPULATION": 1090435,
   "FIRST INC.": "13 March 2020",
-  "NUM DAYS": 311,
-  "NUM CASES": 99231,
-  "NUM DEATHS": 1350,
-  "MAX CASE COUNTY": 62258,
+  "NUM DAYS": 313,
+  "NUM CASES": 100477,
+  "NUM DEATHS": 1393,
+  "MAX CASE COUNTY": 63040,
   "MAX CASE COUNTY NAME": "Jefferson County, Alabama"
  },
  {
@@ -581,10 +581,10 @@
   "NAME": "Grand Rapids Metro Area",
   "POPULATION": 1077370,
   "FIRST INC.": "12 March 2020",
-  "NUM DAYS": 312,
-  "NUM CASES": 79180,
-  "NUM DEATHS": 1068,
-  "MAX CASE COUNTY": 47492,
+  "NUM DAYS": 314,
+  "NUM CASES": 79711,
+  "NUM DEATHS": 1073,
+  "MAX CASE COUNTY": 47832,
   "MAX CASE COUNTY NAME": "Kent County, Michigan"
  },
  {
@@ -593,10 +593,10 @@
   "NAME": "Rochester Metro Area",
   "POPULATION": 1069644,
   "FIRST INC.": "11 March 2020",
-  "NUM DAYS": 313,
-  "NUM CASES": 57746,
-  "NUM DEATHS": 1017,
-  "MAX CASE COUNTY": 44008,
+  "NUM DAYS": 315,
+  "NUM CASES": 58641,
+  "NUM DEATHS": 1046,
+  "MAX CASE COUNTY": 44632,
   "MAX CASE COUNTY NAME": "Monroe County, New York"
  }
 ]
